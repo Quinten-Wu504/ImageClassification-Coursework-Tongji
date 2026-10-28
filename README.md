@@ -20,4 +20,4 @@ python main.py --gtm --realtime
 
 MNIST downloads automatically into `Dataset/`. Cat inference requires `GoogleTMModel/model.tflite`, its matching `GoogleTMModel/labels.txt`, and test images under `Dataset/Cat/test/`. Press `q` to close webcam inference. Both TensorFlow and PyTorch are imported by the main entry point.
 
-The optional shell scripts activate a Conda environment named `CVCourse`. The cat dataset is included under `Dataset/Cat/`: 108 training images (27 per breed: British Shorthair, Maine Coon, Ragdoll and Siamese) and 20 test images. MNIST data, trained models and generated outputs are not included.
+The optional shell scripts activate a Conda environment named `CVCourse`. The cat dataset is included under `Dataset/Cat/`: 108 training images (27 per breed: British Shorthair, Maine Coon, Ragdoll and Siamese) and 20 test images. MNIST data, trained models and the matching TensorFlow Lite labels are also included. The original coursework README is preserved in `README.original.md`.
